@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class TestingSector
+public class TemptOut
 {
 
     public static void main(String args[]) throws IOException
