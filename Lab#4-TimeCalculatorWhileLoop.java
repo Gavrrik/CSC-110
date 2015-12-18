@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
     	 Scanner keyboard = new Scanner (System.in);
     	 int i =7;
 
-    	 int seconds; // The number of seconds 
     	 String input; // This is to hold the keyboard input 
          
          //constants  
@@ -19,7 +18,7 @@ import javax.swing.JOptionPane;
         do{ 
         	//This is to get the number of seconds 
         	input= JOptionPane.showInputDialog ("Enter the number of seconds"); 
-        	seconds= Integer.parseInt(input); 
+        	int seconds= Integer.parseInt(input); 
         	//this is to catch the seconds entered and display them in the output.
         	int totalseconds = seconds;
           
