@@ -1,4 +1,3 @@
-jva
 public class HelloWorldProgram {
 
 	public static void main(String[] args) {
