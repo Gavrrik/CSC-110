@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /** 
- * @developed by Halcyon 
+ * @developed by Gavrik 
 */ 
 
 public class YoungOrOld 
@@ -29,7 +29,7 @@ public class YoungOrOld
 		}
         else
         {
-			System.out.println("You're very young and you have a whole future ahead, WorkHard!.");
+			System.out.println("You're young and you have a whole future ahead, WorkHard!.");
 				
 				
 		}
