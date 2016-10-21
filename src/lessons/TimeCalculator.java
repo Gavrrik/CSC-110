@@ -1,4 +1,5 @@
 package lessons;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -46,7 +47,7 @@ public class TimeCalculator {
 		}
 
 		// Display the number of days, if any.
-    if (seconds > SECONDS_PER_DAY) {
+		if (seconds > SECONDS_PER_DAY) {
 			// calculate the number of days.
 			double days = seconds / SECONDS_PER_DAY;
 
@@ -57,4 +58,5 @@ public class TimeCalculator {
 		// Exit the application
 		System.exit(0);
 	}
+	
 }

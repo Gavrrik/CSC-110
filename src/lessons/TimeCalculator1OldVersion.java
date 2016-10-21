@@ -1,4 +1,5 @@
 package lessons;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -50,6 +51,7 @@ public class TimeCalculator1OldVersion {
 		}
 		// Exit the application
 		System.exit(0);
-    
+
 	}
+	
 }

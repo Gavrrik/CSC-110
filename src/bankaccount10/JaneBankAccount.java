@@ -1,23 +1,19 @@
 package bankaccount10;
 
 public class JaneBankAccount {
-    private double balance;
+	private double balance;
 
-    public void deposit (double amount)
-    {
+	public void deposit(double amount) {
+		balance += 500 + amount;
+	}
 
-    balance += 500 + amount;
-    
-    }
-    public void withdraw (double amount)
-    {
+	public void withdraw(double amount) {
+		balance -= 500 - amount;
 
-    balance -= 500 - amount;
-    
-    } 
-    public double getBalance()
-    {
-    return balance;
-    }
+	}
+
+	public double getBalance() {
+		return balance;
+	}
 
 }
